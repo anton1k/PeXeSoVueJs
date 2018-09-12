@@ -257,6 +257,7 @@ html, body {
   margin: 5px 10px;
   cursor: pointer;
   max-width: 112px;
+  min-width: 112px;
   height: 170px;
   border-radius: 19px;
   background: white;
