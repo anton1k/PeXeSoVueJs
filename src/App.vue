@@ -171,7 +171,7 @@ export default {
               this.obj[0].last.remove();
               this.count-=2;
 
-              if (this.count == 18) {
+              if (this.count == 0) {
                 this.timres.push(this.formtime);
                 this.time = 0;
                 this.formtime = '00:00',
@@ -362,7 +362,7 @@ html, body {
   &-window {
     background: white;
     padding: 10px;
-    width: 40%;
+    width: 50%;
     margin: 200px auto;
     padding: 5px 20px;
     position: relative;
